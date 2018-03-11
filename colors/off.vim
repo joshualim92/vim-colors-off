@@ -196,7 +196,8 @@ hi link diffAdded         DiffAdd
 hi link SignifySignAdd              LineNr
 hi link SignifySignDelete           LineNr
 hi link SignifySignChange           LineNr
-hi link GitGutterAdd                LineNr
-hi link GitGutterDelete             LineNr
-hi link GitGutterChange             LineNr
-hi link GitGutterChangeDelete       LineNr
+hi link GitGutterAdd                DiffAdd
+hi link GitGutterDelete             DiffDelete
+hi link GitGutterChange             DiffText
+hi link GitGutterChangeDelete       DiffChange
+hi link gitcommitOverflow           ErrorMsg
