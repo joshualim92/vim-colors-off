@@ -83,8 +83,8 @@ call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
 call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
 call s:h("Comment",       {"fg": s:bg_subtle, "gui": "italic"})
 
-"call s:h("Constant",      {"fg": s:cyan})
-hi! link Constant         Normal
+call s:h("Constant",      {"fg": s:norm_subtle})
+" hi! link Constant         Normal
 hi! link Character        Constant
 hi! link Number           Constant
 hi! link Boolean          Constant
