@@ -129,7 +129,7 @@ call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline
 call s:h("Ignore",        {"fg": s:bg})
 call s:h("Error",         {"fg": s:actual_white, "bg": s:red, "cterm": "bold"})
 call s:h("Todo",          {"fg": s:yellow, "gui": "bold", "cterm": "bold"})
-call s:h("SpecialKey",    {"fg": s:light_green})
+call s:h("SpecialKey",    {"fg": s:subtle_black})
 call s:h("NonText",       {"fg": s:medium_gray})
 call s:h("Directory",     {"fg": s:dark_blue})
 call s:h("ErrorMsg",      {"fg": s:pink})
